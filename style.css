@@ -98,11 +98,11 @@ ol{padding-left:1.2em; margin-left: 0; }
 .w3-button:hover{color:#000!important;background-color:#ccc!important}
 .abstract{padding:4px;padding-left:8px;margin:8px;border-left:2px dotted;text-align:left;display:none}
 /* Colors */
-.w3-skyblue,.w3-hover-skyblue:hover,.w3-table th{color:#fff!important;background-color:#0577B1!important}
-.w3-prussian,.w3-hover-prussian:hover{color:#fff!important;background-color:#005587!important}
+.w3-secondary,.w3-hover-secondary:hover,.w3-table th{color:#fff!important;background-color:#0577B1!important}
+.w3-primary,.w3-hover-primary:hover{color:#fff!important;background-color:#005587!important}
 .w3-dropdown-hover:hover > .w3-button:first-child,.w3-dropdown-click:hover > .w3-button:first-child{color:#fff;background-color:#005587}
 h1,h2,h3,h4,h5,h6{color:#005587!important}
-.w3-goldleaf,.w3-hover-goldleaf:hover{color:#fff!important;background-color:#262626!important}
+.w3-accent,.w3-hover-accent:hover{color:#fff!important;background-color:#262626!important}
 .w3-light-grey{color:#000!important;background-color:#f1f1f1!important}
 /* Email hider */
 .cryptedmail:after {
