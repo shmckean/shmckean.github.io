@@ -21,6 +21,8 @@ $(document).ready(function(){
   $('.absbutton').click(function(){
   var id = $(this).attr("id");
     $('#abs-' + id).slideToggle('fast');
+    $('#and-' + id).toggle();
+    $('#or-' + id).toggle();
   });
 });
 </script>
@@ -72,7 +74,7 @@ $(document).ready(function(){
    On the side, I also like to think about applications of topology to subjects like neuroscience and condensed matter physics.
    For more details, see my <a href="short-research.pdf">abbreviated research statement</a>.
 
-<h2><a class="absbutton" id="papers" href="javascript:;">papers & preprints &ensp;<span class="stretch" style="font-size:16px">&or;</span></a></h2>
+<h2><a class="absbutton" id="papers" href="javascript:;">papers & preprints &ensp;<span id="or-papers" class="stretch" style="font-size:16px">&or;</span><span id="and-papers" class="stretch" style="font-size:16px;display:none">&and;</span></a></h2>
       <div style="display:none;overflow-x:auto" id="abs-papers">
 <p>My papers are also available on my <a href="https://arxiv.org/a/mckean_s_1.html">arXiv page</a>.
 <ol reversed>
@@ -127,7 +129,7 @@ with Thomas Brazelton and Sabrina Pauli.<br>
 </ol>
 </div>
 
-<h2><a class="absbutton" id="other" href="javascript:;">other writing &ensp;<span class="stretch" style="font-size:16px">&or;</span></a></h2>
+<h2><a class="absbutton" id="other" href="javascript:;">other writing &ensp;<span id="or-other" class="stretch" style="font-size:16px">&or;</span><span id="and-other" class="stretch" style="font-size:16px;display:none">&and;</span></a></h2>
       <div style="display:none;overflow-x:auto" id="abs-other">
 <ol reversed> 
 <li><p><b>Local contributions in <b>A</b><sup>1</sup>-enumerative geometry</b>.<br>

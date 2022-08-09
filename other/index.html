@@ -21,6 +21,8 @@ $(document).ready(function(){
   $('.absbutton').click(function(){
   var id = $(this).attr("id");
     $('#abs-' + id).slideToggle('fast');
+    $('#and-' + id).toggle();
+    $('#or-' + id).toggle();
   });
 });
 </script>
@@ -70,7 +72,7 @@ $(document).ready(function(){
         For example, I organize an online mentoring program called <a href="https://sites.google.com/view/twoples/">Twoples</a>.
         I like art and graphic design, so I occasionally make <a href="#shirts">shirt designs</a>.
 
-<h2><a class="absbutton" id="outreach" href="javascript:;">outreach &ensp;<span class="stretch" style="font-size:16px">&or;</span></a></h2>
+<h2><a class="absbutton" id="outreach" href="javascript:;">outreach &ensp;<span id="or-outreach" class="stretch" style="font-size:16px">&or;</span><span id="and-outreach" class="stretch" style="font-size:16px;display:none">&and;</span></a></h2>
       <div style="display:none;overflow-x:auto" id="abs-outreach">
     	<p><table>
   		<tr>
@@ -143,7 +145,7 @@ $(document).ready(function(){
 		</table>
 		</div>
 		
-		<h2><a class="absbutton" id="shirts" href="javascript:;">shirts &ensp;<span class="stretch" style="font-size:16px">&or;</span></a></h2>
+		<h2><a class="absbutton" id="shirts" href="javascript:;">shirts &ensp;<span id="or-shirts" class="stretch" style="font-size:16px">&or;</span><span id="and-shirts" class="stretch" style="font-size:16px;display:none">&and;</span></a></h2>
       <div style="display:none;overflow-x:auto" id="abs-shirts">
       <div style="float:left;width:35%">
       <img src="../images/hex-logo.png" style="width:100%">
