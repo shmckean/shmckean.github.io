@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="icon" type="image/png" href="../images/favicon.png" size="256x256">
+
+  <title>Stephen McKean</title>
+  <meta name="description" content="">
+
+  <link rel="stylesheet" href="../style.css">
+
+  <link rel="canonical" href="https://shmckean.github.io/lab">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $('.absbutton').click(function(){
+  var id = $(this).attr("id");
+    $('#abs-' + id).slideToggle('fast');
+    $('#and-' + id).toggle();
+    $('#or-' + id).toggle();
+  });
+});
+</script>
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Stephen McKean</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+            <a class="page-link" href="../cv">cv</a>
+            <a class="page-link" href="../research">research</a>
+            <a class="page-link" href="../teaching">teaching</a>
+            <a class="page-link" href="../lab">lab</a>
+            <a class="page-link" href="../other">other</a>
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">lab</h1>
+  </header>
+
+  <div class="post-content">
+<p> Collaboration and mentorship are some of my favorite aspects about research.
+I am always looking for new students and postdocs to work with.
+If you are interested in working with me, please read the "prospective members" section of this page.
+This section includes details for students who are not at BYU but are still interested in working with me.
+
+<p> All of my research involves algebra, geometry, or topology in some way, but I am also interested in applying these areas of math to physics and biology.
+For more details and some suggested prerequisites, see the "topics" section of this page.
+
+<h2><a class="absbutton" id="topics" href="javascript:;">topics &ensp;<span id="or-topics" class="stretch" style="font-size:16px">&or;</span><span id="and-topics" class="stretch" style="font-size:16px;display:none">&and;</span></a></h2>
+      <div style="display:none;overflow-x:auto" id="abs-topics">
+<p> I am interested in a broad range of subjects, so there is some flexibility on what your research project can be about.
+Below are some broad topics you could research with me, along with the classes you might need in preparation for such a project.
+These classes are not hard requirements, but rather suggested prerequisites.
+
+<h3>algebra</h3>
+<img class="smallrightbox" style="float: right; padding-top:5px; padding-bottom:10px; padding-left:10px" src="../images/cubic.gif">
+<p> Algebra is the study of symmetry.
+These symmetries may be concrete, geometric symmetries, or they may arise in more abstract contexts.
+Either way, symmetry can be encoded in mathematical objects known as groups, rings, and fields.
+These play a fundamental role in modern algebra.
+
+<p> Just as graphing gives shape to a polynomial, one can associate geometric objects to groups, rings, and fields.
+These geometric objects are the key elements in algebraic geometry.
+Algebraic geometry can be viewed as a sort of dictionary, allowing one to translate back and forth between algebraic and geometric perspectives.
+For example, counting the solutions to a system of polynomial equations can be reinterpreted as counting the intersections of a collection of surfaces, which is amenable to geometric techniques.
+
+<p> Suggested prerequisites include group theory (Math 371), rings and fields (Math 372), and algebraic geometry (Math 561).
+
+<h3>topology</h3>
+<img class="smallrightbox" style="float: right; padding-top:5px; padding-bottom:10px; padding-left:10px" src="../images/hopf.png">
+<p> Geometry is the quantitative study of shape, in which one uses measurements such as angles and distances.
+In the absence of such metrics, one has to rely on other, more qualitative characteristics of shape.
+Topology is the qualitative study of shape.
+
+<p> My research in topology mostly circles around algebraic topology, where certain features of shapes are measured in things like groups and rings.
+Algebraic topology turns out to be a very powerful toolkit when it comes to how shapes deform or relate to each other under continuous functions.
+A notable example is cobordism theory, where two manifolds are considered equivalent if they jointly form the boundary of some other manifold.
+Although cobordism theory is inherently geometric, algebraic topology has become one of the primary tools in the subject.
+
+<p> Suggested prerequisites include group theory (Math 371), topology (Math 451), and differential geometry (Math 465).
+
+<h3>biology</h3>
+<img class="smallrightbox" style="float: right; padding-top:5px; padding-bottom:10px; padding-left:10px" src="../images/connectome.png"> 
+<!-- Image by Andreas Horn. Link: https://pubmed.ncbi.nlm.nih.gov/24099851/. CC BY-SA 4.0-->
+<p> Many morphological classifications in biology are built out of subjective observations.
+Topology, the study of shape, can be used to quantify morphologies, yielding more objective classifications.
+The network of neurons in an organism (known as the connectome) is an incredibly complicated structure to which these tools can be applied.
+Another application is to structural cytology and histology, by comparing the form of healthy cells and tissues to their cancerous counterparts.
+
+<p> Data also has an intrinsic shape, which can be used to help analyze large and complicated data sets.
+Such data sets naturally arise in genomics.
+Potential projects in this area entail analyzing the shape of genomic data to answer questions in genetic evolution or epidemiology.
+
+<p> Lab members working on these topics should have some experience coding (e.g. Python) and working with data. 
+Suggested mathematics prerequisites include graph theory (Math 355), group theory (Math 371), and topology (Math 451).
+Suggested biology prerequisites include cell biology (Cell 360) and genetics (PWS 340).
+
+<h3>physics</h3>
+<img class="smallrightbox" style="float: right; padding-top:5px; padding-bottom:10px; padding-left:10px" src="../images/scatter.jpg">
+<!-- Image by Lucas Taylor. Link: https://cds.cern.ch/record/628469. CC BY-SA 3.0-->
+<p> Many of my mathematical interests arise in quantum field theory, the unification of classical mechanics, special relativity, and quantum mechanics.
+Homotopy theory has found a fundamental role in certain types of quantum field theories, such as topological field theories and invertible field theories.
+This has also led to applications of homotopy theory to condensed matter physics, like classifying exotic insulators, superconductors, and other phases of matter.
+
+<p> Quantum field theory also predicts how particles scatter in high-energy collisions.
+Particle accelerators generate experimental data in an effort to corroborate these theoretical scattering amplitudes.
+Remarkably, there are some intricate connections between scattering amplitudes and number theory.
+This means that one can use both theoretical and experimental physics to study mathematical objects such as group representations or modular forms.
+
+<p> Suggested mathematics prerequisites include group theory (Math 371), topology (Math 451), representation theory (Math 473), and number theory (Math 487).
+Suggested physics prerequisites include electrodynamics (Physics 442) and quantum mechanics (Physics 451).
+If you are interested in working with collider data, some experience with coding (e.g. Python) and working with data would be preferable.
+</div>
+
+<h2><a class="absbutton" id="prospective" href="javascript:;">prospective members &ensp;<span id="or-prospective" class="stretch" style="font-size:16px">&or;</span><span id="and-prospective" class="stretch" style="font-size:16px;display:none">&and;</span></a></h2>
+      <div style="display:none;overflow-x:auto" id="abs-prospective">
+      
+<p> If you join my lab, we will work together to select a research topic and a project at a level appropriate for your background.
+Depending on the project and your preferences, you might be collaborating with other group members on this project.
+Also depending on the project and your preferences, I might co-author a research paper with you or merely supervise as you write a paper yourself.
+
+<p> Beyond the project, members of the lab are given the flexibility to pursue independent research.
+All lab members are encouraged to form their own research questions, learn new material, and investigate ideas of interest.
+
+<h3>undergraduates</h3>
+<p> When you learn math in a class, you generally have people around you who know how to solve any problem you are stuck on.
+These people might be the teacher, teaching assistants, or even your peers.
+Research is like trying to learn a subject, but without the guarantee that anybody around you knows how to solve your problem.
+What's more, the problem you are trying to solve may not even have a solution.
+Of course, there are still people around who can help &mdash; mentors, collaborators, and peers.
+But the uncertainty associated with a research question gives the whole endeavor a different feel than can be found in the classroom.
+
+<p> The best, and perhaps only, way to find out if you like research is to get involved.
+There are lots of careers in industry and academia that involve research, and doing undergraduate research is a great way to gauge your interest in such a career.
+Regardless of the career you choose, you will also develop skills that would be valuable in almost any creative or technical job.
+
+<p> As an undergraduate research assistant in my lab, you will be paid $14/hour for your work.
+Your hours and location are flexible, but you should plan on working at least 10 hours and no more than 20 hours each week.
+These working hours may entail proving theorems, writing code, analyzing data, writing a paper, presenting your research, or attending seminars and group meetings.
+You will likely be collaborating with other undergraduate research assistants.
+
+<p> If you are interested in joining the lab, please send me an email with a brief description of your interests, background, and career goals.
+It's okay if your career goals are still tentative.
+Please also include a resume and an unofficial transcript in your email.
+
+<p> Note that external students are generally not eligible for a paid research assistantship.
+Under exceptional circumstances, I may consider an undergraduate student at an institution other than BYU.
+If you believe your circumstances are exceptional, please send me an email with a brief description of your interests, background, and career goals.
+Please also include a resume and an explanation of why you want to work with me.
+I will let you know if I decide to work with you.
+I will try to respond to your email even if I decide not to work with you, but I may not have time due to the number of emails I receive.
+
+<h3>graduates</h3>
+<p> If you are a current BYU graduate student, please send me an email with a brief description of your interests, background, and career goals.
+We can then schedule a meeting to discuss potential projects.
+
+<p> If you are not yet a graduate student but would like to work with me at BYU, please <a href="https://math.byu.edu/applications-deadlines">apply to the BYU Department of Mathematics</a>.
+You are welcome to reach out to me before you apply, but I cannot estimate your chances of acceptance to the program.
+
+<p> I am open to co-advising PhD students at institutions other than BYU.
+In exceptional circumstances, I will also co-advise masters students at other institutions.
+If you would like to ask me to be your co-advisor, please discuss the matter with your current advisor first.
+If your advisor agrees, then please send me an email with a brief description of your interests, background, and why you would like me to co-advise you.
+Please also CC your advisor in the email.
+
+<h3>postdocs</h3>
+<p> If you are interested in working with me as a postdoc, please send me an email.
+
+</div>
+
+<h2><a class="absbutton" id="current" href="javascript:;">current members &ensp;<span id="or-current" class="stretch" style="font-size:16px">&or;</span><span id="and-current" class="stretch" style="font-size:16px;display:none">&and;</span></a></h2>
+      <div style="display:none;overflow-x:auto" id="abs-current">
+
+<h3>undergraduates</h3>
+<p><table>
+  		<tr>
+  		   <th>Years</th>
+    		<th>Name</th>
+    		<th>School</th>
+   		   <th>Type</th>
+    		<th>Topic</th>
+  		</tr>
+                <tr>
+                <td>2024 &mdash;</td>
+                <td>Lev Kruglyak</td>
+                <td>Harvard</td>
+                <td>Senior thesis</td>
+                <td>Exotic spheres and the Kervaire invariant</td>
+                </tr>
+		</table><br>
+
+</div>
+
+<h2><a class="absbutton" id="former" href="javascript:;">former members &ensp;<span id="or-former" class="stretch" style="font-size:16px">&or;</span><span id="and-former" class="stretch" style="font-size:16px;display:none">&and;</span></a></h2>
+      <div style="display:none;overflow-x:auto" id="abs-former">
+
+<h3>undergraduates</h3>
+<p><table>
+  		<tr>
+  		   <th>Years</th>
+    		<th>Name</th>
+    		<th>School</th>
+   		   <th>Type</th>
+    		<th>Topic</th>
+    		<th>Links</th>
+  		</tr>
+                <tr>
+                <td>2023 &mdash; 2024</td>
+                <td>Helen Dai</td>
+                <td>Harvard</td>
+                <td>Senior thesis</td>
+                <td>Examples of exotic <b>R</b><sup>4</sup>s</td>
+                <td></td>
+                </tr>
+                <tr>
+                <td>2022 &mdash; 2024</td>
+                <td>Jonathan Buchanan</td>
+                <td>Harvard</td>
+                <td><a href="https://live-hu-math.pantheonsite.io/wp-content/uploads/Jonathan-Buchanan-Thesis.pdf">Senior thesis</a> and research assistant</td>
+                <td>Variants of spin cobordism</td>
+                <td><a href="https://prizes.fas.harvard.edu/hoopes-prize">Hoopes Prize</a></td>
+                </tr>
+		</table><br>
+
+</div>
+
+<h2><a class="absbutton" id="collab" href="javascript:;">collaborators &ensp;<span id="or-collab" class="stretch" style="font-size:16px">&or;</span><span id="and-collab" class="stretch" style="font-size:16px;display:none">&and;</span></a></h2>
+      <div style="display:none;overflow-x:auto" id="abs-collab">
+      <p><table>
+  		<tr>
+    		<th>Name</th>
+    		<th>Institution</th>
+  		</tr>
+                <tr><td><a href="https://math.umd.edu/~dbejleri/">Dori Bejleri</a></td><td>University of Maryland</td></tr>
+                <tr><td><a href="https://tbrazel.github.io/">Thomas Brazelton</a></td><td>Harvard</td></tr>
+                <tr><td>Jonathan Buchanan</td><td>MIT</td></tr>
+                <tr><td><a href="https://burklund.github.io/">Robert Burklund</a></td><td>University of Copenhagen</td></tr>
+                <tr><td>Cameron Darwin</td><td></td></tr>
+                <tr><td><a href="https://adebray.github.io/">Arun Debray</a></td><td>University of Kentucky</td></tr>
+                <tr><td>Aygul Galimova</td><td></td></tr>
+                <tr><td><a href="https://sites.lsa.umich.edu/pmgu/">Miao (Pam) Gu</a></td><td>University of Michigan</td></tr>
+                <tr><td>John Igieobo</td><td></td></tr>
+                <tr><td><a href="https://sites.google.com/view/eniskaya/home">Enis Kaya</a></td><td>KU Leuven</td></tr>
+                <tr><td><a href="https://hanajiakong.github.io/">Hana Jia Kong</a></td><td>Harvard</td></tr>
+                <tr><td><a href="https://ckrulewski.notion.site/Cameron-Krulewski-1b0f1e218681482cb39e851b80812b72">Cameron Krulewski</a></td><td>MIT</td></tr>
+                <tr><td><a href="https://tu-dresden.de/mn/math/geometrie/kummer/startseite/?set_language=en">Mario Kummer</a></td><td>TU Dresden</td></tr>
+                <tr><td><a href="https://dminahan6.math.gatech.edu/">Daniel Minahan</a></td><td>UChicago</td></tr>
+                <tr><td>Michael Montoro</td><td></td></tr>
+                <tr><td><a href="https://sites.google.com/view/giosue-muratore">Giosu&egrave; Muratore</a></td><td>University of Lisbon</td></tr>
+                <tr><td><a href="https://wgabrielong.github.io/">Wern Juin Gabriel Ong</a></td><td>Bowdoin College</td></tr>
+                <tr><td><a href="https://www.math.ucla.edu/~mopie/">Morgan Opie</a></td><td>UCLA</td></tr>
+                <tr><td>Natalia Pacheco-Tallaj</td><td>MIT</td></tr>
+                <tr><td><a href="https://homepage.sabrinapauli.com/">Sabrina Pauli</a></td><td>TU Darmstadt</td></tr>
+                <tr><td>Steven Sanchez</td><td></td></tr>
+                <tr><td><a href="https://franksottile.github.io/">Frank Sottile</a></td><td>Texas A&M</td></tr>
+                <tr><td><a href="https://sites.google.com/view/samstreeter/home">Sam Streeter</a></td><td>University of Bristol</td></tr>
+                <tr><td>Dae'Shawn Taylor</td><td></td></tr>
+                <tr><td><a href="https://sites.google.com/view/h-uppal/home">Happy Uppal</a></td><td>University of Bath</td></tr>
+                <tr><td><a href="https://bimsa.net/people/zheyanwan/">Zheyan Wan</a></td><td>BIMSA</td></tr>
+                <tr><td><a href="https://www.sns.ias.edu/~juven/">Juven Wang</a></td><td>Harvard CMSA</td></tr>
+                <tr><td><a href="https://services.math.duke.edu/~kgw/">Kirsten Wickelgren</a></td><td>Duke</td></tr>
+                <tr><td>Tianyi Zhang</td><td></td></tr>
+		</table><br>
+
+</div>
+  </div>
+
+</article>
+
+      </div>
+    </div>
+
+    <footer>
+  <div class="wrapper">
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-3">
+        <strong>Email:</strong> <a data-name="mckean" data-domain="math.byu" data-tld="edu" href="#" class="cryptedmail" onclick="window.location.href = 'mailto:' + this.dataset.name + '@' + this.dataset.domain + '.' + this.dataset.tld"></a><br>
+        <strong>Office:</strong> 220 TMCB<br>
+        <br>
+        Department of Mathematics<br>
+        Brigham Young University<br>
+        Provo, UT 84602
+      </div>
+
+      
+    </div>
+  </div>
+</footer>
+
+
+  </body>
+
+</html>
