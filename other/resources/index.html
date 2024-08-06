@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="icon" type="image/png" href="../../images/favicon.png" size="256x256">
+
+  <title>Stephen McKean</title>
+  <meta name="description" content="">
+
+  <link rel="stylesheet" href="../../style.css">
+
+  <link rel="canonical" href="https://shmckean.github.io/other/resources">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $('.absbutton').click(function(){
+  var id = $(this).attr("id");
+    $('#abs-' + id).slideToggle('fast');
+    $('#and-' + id).toggle();
+    $('#or-' + id).toggle();
+  });
+});
+</script>
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Stephen McKean</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+            <a class="page-link" href="../../cv">cv</a>
+            <a class="page-link" href="../../research">research</a>
+            <a class="page-link" href="../../teaching">teaching</a>
+            <a class="page-link" href="../../lab">lab</a>
+            <a class="page-link" href="../../other">other</a>
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">resources</h1>
+  </header>
+
+  <div class="post-content">
+<p>This is a collection of resources for students and mentees.
+Below, you will find guides, advice, and downloadable files for learning how to use LaTeX, making a website, writing a paper, and giving a talk.
+If there is a resource you would like me to add, please let me know.
+There are also lots of similar resources scattered across the internet, such as the <a href="https://margalit.droppages.net/tsr/index.html">Math Students Resource</a>.
+
+<p>This site is under construction, so some of the following resources may not have any material at the moment.
+
+<h2><a class="absbutton" id="latex" href="javascript:;">using latex &ensp;<span id="or-latex" class="stretch" style="font-size:16px">&or;</span><span id="and-latex" class="stretch" style="font-size:16px;display:none">&and;</span></a></h2>
+	<div style="display:none;overflow-x:auto" id="abs-latex">
+    	
+	</div>
+
+<h2><a class="absbutton" id="website" href="javascript:;">making a website &ensp;<span id="or-website" class="stretch" style="font-size:16px">&or;</span><span id="and-website" class="stretch" style="font-size:16px;display:none">&and;</span></a></h2>
+	<div style="display:none;overflow-x:auto" id="abs-website">
+    	<p>A personal website is an indispensable tool for any aspiring academic.
+	Opportunities for collaboration, speaking, refereeing, and employment all involve other people, and those people will look to your website for information about you.
+	This is especially true once you have written your first paper, but I recommend creating a simple website as soon as you start graduate school.
+
+	<p>There are a few things that your website should include:
+	<ul>
+	<li>Your name, current affiliation, and contact information.
+	<li>The name of your advisor or research mentor.
+	<li>A photo of you that is recognizable and reasonably professional.
+	<li>An updated curriculum vitae.
+	<li>Your research interests and pdfs of any preprints or publications.
+	</ul>
+	<p>Aside from these, I would recommend keeping your website simple, organized, and easy to navigate.
+	Being intentional about good visual design is a skill that will also improve the way you write papers and give talks.
+
+	<p>The simplest way to create a personal website is to use Google Sites or a comparable service.
+	If you have (or want to learn) some knowhow with html, you may prefer writing your own website.
+	With this option, you will need a way to host your files.
+	I recommend using <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site">GitHub Pages</a>, which is simple and flexible.
+	
+	<p>You may also have the option to host your website on your department's server.
+	However, you should remember that you will probably have to move institutions several times before finding a permanent position.
+	If you use GitHub or another online service to host your webpage, you will not have to recreate your website or redirect visitors to the new address.
+	
+
+	<p>For creating your website, the usual advice is to copy the files from somebody else (with their permission).
+	You are welcome to use my files if you like.
+	If you prefer, I have also created a simple website template.
+	Just download the <a href="./template/index.html" download>html file</a> and <a href="./template/style.css" download>style sheet</a> to your username.github.io repository, or the relevant public folder if you are using a different hosting option.
+	You will want to edit the html file with your personal information.
+
+	<p>For more information on creating an academic webpage, I found <a href="https://web.archive.org/web/20181001054749/http://math.uchicago.edu/~chonoles/miscellany/making-a-website/">Zev Chonoles's guide</a> useful when I was starting out.
+	A fair amount of this material is irrelevant if you host your page through GitHub, since you won't need to access your math department's servers and won't be able to use php files, but the guide is informative and well-written.
+	</div>
+
+<h2><a class="absbutton" id="paper" href="javascript:;">writing a paper &ensp;<span id="or-paper" class="stretch" style="font-size:16px">&or;</span><span id="and-paper" class="stretch" style="font-size:16px;display:none">&and;</span></a></h2>
+	<div style="display:none;overflow-x:auto" id="abs-paper">
+    	
+	</div>
+
+<h2><a class="absbutton" id="talk" href="javascript:;">giving a talk &ensp;<span id="or-talk" class="stretch" style="font-size:16px">&or;</span><span id="and-talk" class="stretch" style="font-size:16px;display:none">&and;</span></a></h2>
+	<div style="display:none;overflow-x:auto" id="abs-talk">
+    	
+	</div>
+
+</article>
+
+      </div>
+    </div>
+
+    <footer>
+  <div class="wrapper">
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-3">
+        <strong>Email:</strong> <a data-name="mckean" data-domain="math.byu" data-tld="edu" href="#" class="cryptedmail" onclick="window.location.href = 'mailto:' + this.dataset.name + '@' + this.dataset.domain + '.' + this.dataset.tld"></a><br>
+        <strong>Office:</strong> 220 TMCB<br>
+        <br>
+        Department of Mathematics<br>
+        Brigham Young University<br>
+        Provo, UT 84602
+      </div>
+
+      
+    </div>
+  </div>
+</footer>
+
+
+  </body>
+
+</html>
